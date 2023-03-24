@@ -1,0 +1,14 @@
+@import "../static/mixins.scss";
+@import "../static/variable.scss";
+
+.default-button {
+    padding: 15px 44px;
+    background: #FB4B4D;
+
+    color: $main-text-color;
+    
+    &:hover {
+        background: rgb(99, 59, 7);
+        transition: 0.3s;
+    }
+}

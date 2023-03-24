@@ -8,6 +8,7 @@ body {
 
 .wrapper {
     max-width: 1397px;
+    margin: 0 auto;
 }
 
 @include response(1023px) {

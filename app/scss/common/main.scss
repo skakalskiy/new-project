@@ -3,11 +3,10 @@
 
 .main {
 
-    border: 1px solid #000;
    
     &__wrapper {
         margin: 0 auto;
-
+        border: 1px solid #000;
         .half {
             display: flex;
         }

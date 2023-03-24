@@ -2,17 +2,16 @@
 @import "../static/variable.scss";
 
 .java {
-    
+   
 
     &__wrapper {
         display: flex;
         align-items: center;
         justify-content: space-between;
-
-        padding: 59px 30px 58px 29px;
-
         border: 1px solid #000;
         border-top: none;
+
+        padding: 59px 30px 58px 29px;
     }
 
     &__title {

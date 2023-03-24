@@ -2,12 +2,12 @@
 @import "../static/variable.scss";
 
 .header {
-    border: 1px solid #000;
+    
     
 
     &__wrapper {
         max-width: 1397px;
-
+        border: 1px solid #000;
         display: flex;
         align-items: center;
         justify-content: space-between;
