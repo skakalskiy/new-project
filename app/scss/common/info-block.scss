@@ -1,0 +1,135 @@
+@import "../static/mixins.scss";
+@import "../static/variable.scss";
+
+.info-block {
+    
+    &__wrapper {
+        display: flex;
+        margin: 0 auto;
+    }
+
+    &__first-half {
+        width: 49.93%;
+        max-height: 698.94px;
+
+        border: 1px solid #000;
+
+        .title {
+            text-align: center;
+
+            padding: 53.75px 52.48px 44px 55.41px;
+            .text {
+                font-size: 58px;
+                font-weight: $font-weight;
+                line-height: 1.11;
+                
+                color: $b;
+            }
+        }
+
+        .image {
+            width: 697px;
+            .container {
+                padding-top:67.58% ;
+                position: relative;
+
+                .picture {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+
+    &__second-half {
+        width: 50.07%;
+        max-height: 698.94px;
+
+        border: 1px solid #000;
+
+        .stars {
+            position: relative;
+            top: -636px;
+            left: 71.5px;
+        }
+
+        .jar-block {
+            display: flex;
+            
+            .jar-left {
+                position: relative;
+                top: -1240px;
+                
+                left: 520px;
+            }
+
+            .jar-right {
+                position: relative;
+                top: -1240px;
+                transform: scaleX(-1);
+                left: -60px;
+
+            }
+        }
+
+        .rabbit-block {
+            display: flex;
+            .rabbit-left {
+                position: relative;
+                top: -817.44px;
+                left: 60px;
+            }
+
+            .rabbit-right{
+                position: relative;
+                top: -817.44px;
+                left: 423px;
+                transform: scaleX(-1);
+            }
+        }    
+
+        .text {
+            text-align: center;
+
+            font-size: 16px;
+            font-weight: $font-weight;
+            line-height: 1.5;
+
+            color: $b;
+
+            position: relative;
+            top: -1350px;
+
+            &__line-one {
+                width: 392px;  
+                margin: 0 auto 22px;
+            }
+
+            &__line-two {
+                width: 125px;
+
+                margin: 0 auto 26px;
+            }
+
+            &__line-three {
+                width: 373px;
+
+                margin: 0 auto 24px;
+            }
+
+            
+            &__line-four {
+                width: 386px;
+
+                margin: 0 auto;
+            }
+
+        }
+            
+    }
+}

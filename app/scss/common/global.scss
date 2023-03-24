@@ -1,0 +1,23 @@
+@import "../static/mixins.scss";
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+    
+}
+
+.wrapper {
+    max-width: 1397px;
+}
+
+@include response(1023px) {
+    .wrapper {
+        padding: 0 15px;
+    }
+}
+
+@include response(767px) {
+    .wrapper {
+        padding: 0 10px;
+    }
+}

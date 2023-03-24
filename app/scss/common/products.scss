@@ -1,0 +1,99 @@
+@import "../static/mixins.scss";
+@import "../static/variable.scss";
+
+.products {
+   
+
+    &__wrapper {
+       
+        border: 1px solid #000;
+        border-top: none;
+
+        max-height: 695.02px;
+
+        .logo-block {
+            display: flex;
+            align-items: center;
+            justify-content: space-between; 
+            
+            padding-top: 21.67px;
+
+            .one {
+                margin-left: 21.87px;
+            }
+            .two {
+                margin-right: 38px;
+            }
+
+            .four {
+                margin-right: 20.85px;
+            }
+        }
+    }
+
+    &__items {
+        display: flex;
+        justify-content: space-around;
+
+        position: relative;
+        top: -90px;
+        .product-background {
+            width: 434px;
+        }
+
+        .item {
+            width: 434px;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            
+            .title {
+                font-size: 18px;
+                font-weight: $font-weight;
+                line-height: 1.56;
+
+                color: $b;
+
+                position: relative;
+                top: -520.49px;
+            }
+
+            .subtitle {
+                font-size: 32px;
+                font-weight: $font-weight;
+                line-height: 1.19;
+
+                color: $b;
+
+                position: relative;
+                top: -520.49px;
+            }
+
+            .img-block {
+                width: 390px;
+                margin: 0 auto;
+
+                .container {
+                    padding-top: 105.38%;
+                    position: relative;
+                    
+                    .image {
+                        position: absolute;
+                        top: -499.49px;
+                        left: 0;
+                        right: 0;
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+            }
+
+
+        }
+    }
+
+
+
+
+}

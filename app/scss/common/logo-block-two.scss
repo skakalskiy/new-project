@@ -1,0 +1,28 @@
+@import "../static/mixins.scss";
+@import "../static/variable.scss";
+
+
+.logo-block-two {
+    
+
+    &__wrapper {
+        border: 1px solid #000;
+        border-top: none;
+    }
+
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .text {
+            font-size: 17px;
+            font-weight: $font-weight;
+            line-height: 1.52;
+
+            color: $b;
+
+            margin: 26px 0;
+        }
+    }
+}

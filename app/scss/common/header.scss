@@ -1,0 +1,55 @@
+@import "../static/mixins.scss";
+@import "../static/variable.scss";
+
+.header {
+    border: 1px solid #000;
+    
+
+    &__wrapper {
+        max-width: 1397px;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding: 0 29px 0 22px;
+    }
+
+    &__logo {
+        display: flex;
+        gap: 31.48px;
+    }
+
+    &__list-one,
+    &__list-two {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+         
+        .item {
+            &__btn-one {
+                margin-right: 137px;
+            }
+
+            &__btn-two {
+                margin-left: 127px;
+            }
+
+            &-story {
+                margin-right: 150px;
+            }
+
+            &-sale {
+                margin-left: 119px;
+            }
+            
+        }
+        .link-one:hover {
+         color: #FB4B4D;       
+        }
+        .link-two:hover {
+            color: #8B83F6;
+        }
+    }
+}
+   

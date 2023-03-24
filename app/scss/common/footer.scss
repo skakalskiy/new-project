@@ -1,0 +1,90 @@
+@import "../static/mixins.scss";
+@import "../static/variable.scss";
+
+.footer {
+    &__wrapper {
+        border: 1px solid #000;
+        border-top: none;
+        max-height: 757px;
+    }
+
+    &__background {
+        position: relative;
+        top: -60px;
+    }
+
+    &__background-two {
+        position: relative;
+        top: -770px;
+    }
+    &__black {
+        position: relative;
+        top: -1400px;
+        left: 267.41px;
+
+        width: 859.27px;
+    }
+
+    &__white {
+        position: relative;
+        top: -1839px;
+        left: 291.41px;
+
+        width: 810.91px;
+    }
+
+    &__lines {
+        position: relative;
+        top: -2385px;
+        left: 20px;
+    }
+
+    .icon-one {
+        position: relative;
+        top: -3040px;
+        left: 90px;
+
+        border: 1px solid #000;
+        border-radius: 50%;
+
+        padding: 25px;
+        
+    }
+
+    .icon-two {
+        position: relative;
+        top: -2590px;
+        left: 93px;
+
+        border: 1px solid #000;
+        border-radius: 50%;
+
+        padding: 20px;
+    }
+
+    .icon-three {
+        position: relative;
+        top: -2670px;
+        left: 1233px;
+
+        border: 1px solid #000;
+        border-radius: 50%;
+
+        padding: 19px;
+    }
+
+    .icon-four {
+        position: relative;
+        top: -3280px;
+        left: 1236px;
+
+        border: 1px solid #000;
+        border-radius: 50%;
+
+        padding: 20px;
+    }
+
+
+    
+
+}

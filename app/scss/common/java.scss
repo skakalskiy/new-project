@@ -1,0 +1,34 @@
+@import "../static/mixins.scss";
+@import "../static/variable.scss";
+
+.java {
+    
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        padding: 59px 30px 58px 29px;
+
+        border: 1px solid #000;
+        border-top: none;
+    }
+
+    &__title {
+        font-size: 65px;
+        font-weight: $font-weight;
+        line-height: 1.12;
+        text-align: center;
+    }
+
+    &__logo {
+        &-one {
+            margin-right: 51px;
+        }
+
+        &-two {
+            margin-left: 52px;
+        }
+    }
+}

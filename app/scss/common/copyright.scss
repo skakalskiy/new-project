@@ -1,0 +1,30 @@
+@import "../static/mixins.scss";
+@import "../static/variable.scss";
+
+.copyright {
+  
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        padding: 20px 93px 21px 93px;
+
+        background: #CEFD3B;
+
+        border: 1px solid #000;
+        border-top: none;
+
+        &__text {
+            font-size: 15px;
+            font-weight: $font-weight;
+            line-height: 1.6;
+
+            color: $b;
+        }
+    }
+
+}
+
+
+

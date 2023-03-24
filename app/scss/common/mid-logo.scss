@@ -1,0 +1,25 @@
+@import "../static/mixins.scss";
+@import "../static/variable.scss";
+
+.mid-logo {
+    position: relative;
+        bottom: -258px;
+   &__block {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        position: relative;
+        top: -257.78px;
+
+        border: 1px solid #000;
+        border-top: none;
+        
+
+        padding: 23.61px 0 24.27px;
+
+        font-size: 17px;
+        font-weight: $font-weight;
+        line-height: 1.3;
+    }
+}
